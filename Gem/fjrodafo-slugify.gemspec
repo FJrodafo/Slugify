@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name        = "fjrodafo-slugify"
-  spec.version     = "1.0.0"
+  spec.version     = "1.0.1"
   spec.summary     = "Slugify!"
   spec.description = "A simple slugify gem!"
 
