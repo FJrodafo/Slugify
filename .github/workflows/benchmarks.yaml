@@ -1,0 +1,23 @@
+name: Benchmarks
+
+on: [push, pull_request]
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Ruby environment
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.1"
+          bundler-cache: false
+
+      - name: Run tests
+        run: |
+          cd ./Gem
+          rake test

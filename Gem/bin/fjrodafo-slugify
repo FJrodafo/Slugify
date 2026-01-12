@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "fjrodafo/slugify"
+
+puts FJrodafo::Slugify.to_slug(ARGV.join(" "))
