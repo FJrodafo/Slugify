@@ -16,6 +16,12 @@ Fjrodafo::Slugify.to_slug("Hello, World!")
 # => "hello-world"
 ```
 
+## Directly from the terminal!
+
+```shell
+fjrodafo-slugify "Hello, World!"
+```
+
 ## Links
 
 Contribute to the repository on [GitHub](https://github.com/FJrodafo/Slugify).
