@@ -18,6 +18,5 @@ jobs:
           bundler-cache: false
 
       - name: Run tests
-        run: |
-          cd ./Gem
-          rake test
+        working-directory: Gem
+        run: rake test

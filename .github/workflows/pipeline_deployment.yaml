@@ -18,8 +18,8 @@ jobs:
           bundler-cache: false
 
       - name: Build and install gem
+        working-directory: Gem
         run: |
-          cd ./Gem
           gem build fjrodafo-slugify.gemspec
           gem install *.gem
 
