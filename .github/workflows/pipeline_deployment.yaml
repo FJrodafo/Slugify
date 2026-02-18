@@ -1,7 +1,5 @@
-name: Pipeline
-
+name: Pipeline deployment
 on: [push, pull_request]
-
 jobs:
   deployment:
     runs-on: ubuntu-slim
@@ -10,19 +8,21 @@ jobs:
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
       - name: Setup Ruby environment
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.1"
           bundler-cache: false
-
       - name: Build and install gem
         working-directory: Gem
         run: |
           gem build fjrodafo-slugify.gemspec
           gem install *.gem
-
       - name: Run installed binary
         run: |
           fjrodafo-slugify "Hello, World!"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: gem-build
+          path: Gem/*.gem
