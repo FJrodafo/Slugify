@@ -2,12 +2,8 @@
 
 A simple slugify gem!
 
-![Gem Owner](https://img.shields.io/gem/u/FJrodafo)
-![Gem Total Downloads](https://img.shields.io/gem/dt/fjrodafo-slugify)
-![Gem Downloads (for latest version)](https://img.shields.io/gem/dtv/fjrodafo-slugify)
-![Gem Version](https://img.shields.io/gem/v/fjrodafo-slugify)
-![Gem download rank](https://img.shields.io/gem/rt/fjrodafo-slugify)
-![Gem download rank](https://img.shields.io/gem/rd/fjrodafo-slugify)
+[![Gem Total Downloads](https://img.shields.io/gem/dt/fjrodafo-slugify?style=flat&logo=rubygems&logoColor=ffffff&label=Downloads&labelColor=e9573f&color=e9573f)](https://rubygems.org/gems/fjrodafo-slugify)
+[![GitHub Stars](https://img.shields.io/github/stars/FJrodafo/Slugify?style=social&logo=github&logoColor=000000&label=Stars&labelColor=ffffff&color=ffffff)](https://github.com/FJrodafo/Slugify/stargazers)
 
 ## Index
 
