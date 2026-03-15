@@ -11,7 +11,7 @@ jobs:
       - name: Setup Ruby environment
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.1"
+          ruby-version: '3.3'
           bundler-cache: false
       - name: Build and install gem
         run: |
@@ -19,7 +19,7 @@ jobs:
           gem install *.gem
       - name: Run installed binary
         run: |
-          fjrodafo-slugify "Hello, World!"
+          fjrodafo-slugify 'Hello, World!'
       - name: Upload artifact
         uses: actions/upload-artifact@v6
         with:
