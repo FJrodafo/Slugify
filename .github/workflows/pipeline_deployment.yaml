@@ -16,7 +16,7 @@ jobs:
       - name: Build and install gem
         run: |
           gem build fjrodafo-slugify.gemspec
-          gem install /*.gem
+          gem install *.gem
       - name: Run installed binary
         run: |
           fjrodafo-slugify "Hello, World!"
