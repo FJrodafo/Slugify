@@ -1,3 +1,6 @@
-/Gem/build/
+# Gem
+/build
 /**/*.gem
-Releases/
+
+# Releases
+/releases/v*

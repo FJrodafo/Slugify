@@ -14,10 +14,9 @@ jobs:
           ruby-version: "3.1"
           bundler-cache: false
       - name: Build and install gem
-        working-directory: Gem
         run: |
           gem build fjrodafo-slugify.gemspec
-          gem install *.gem
+          gem install /*.gem
       - name: Run installed binary
         run: |
           fjrodafo-slugify "Hello, World!"
@@ -25,4 +24,4 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: gem-build
-          path: Gem/*.gem
+          path: /*.gem

@@ -14,5 +14,4 @@ jobs:
           ruby-version: "3.1"
           bundler-cache: false
       - name: Run tests
-        working-directory: Gem
         run: rake test
