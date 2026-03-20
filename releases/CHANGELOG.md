@@ -37,4 +37,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - All files (Existing project).
 
 [unreleased]: https://github.com/FJrodafo/Slugify/compare/1.0.4...HEAD
-[1.0.4]: https://github.com/FJrodafo/Slugify/commits/1.0.4
+[1.0.4]: https://github.com/FJrodafo/Slugify/releases/tag/1.0.4
