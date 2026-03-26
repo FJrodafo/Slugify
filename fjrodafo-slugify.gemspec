@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email       = "fjrodafo@gmail.com"
 
   spec.license     = "CC0-1.0"
-  spec.files       = ["LICENSE", "README.md", "lib/fjrodafo/slugify.rb", "lib/fjrodafo/slugify/transliteration.rb"]
+  spec.files       = ["LICENSE", "docs/README.md", "lib/fjrodafo/slugify.rb", "lib/fjrodafo/slugify/transliteration.rb"]
   spec.test_files  = ["test/test_fjrodafo-slugify.rb"]
 
   spec.required_ruby_version = ">= 3.1"
